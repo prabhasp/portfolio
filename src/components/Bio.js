@@ -7,30 +7,31 @@ import 'typeface-merriweather'
 import profilePic from './profile-pic.jpg'
 import { rhythm } from '../utils/typography'
 
-class Bio extends React.Component {
+export default class Bio extends React.Component {
   render() {
     return (
-      <p
+      <div
         style={{
-          marginBottom: rhythm(2.5),
+          display: 'flex',
+          alignItems: 'center',
+          marginTop: rhythm(.5),
+          marginBottom: rhythm(.5),
         }}
       >
         <img
           src={profilePic}
-          alt={`Kyle Mathews`}
+          alt={`Prabhas Pokharel`}
           style={{
-            float: 'left',
-            marginRight: rhythm(1 / 4),
-            marginBottom: 0,
+            margin: rhythm(1 / 2),
             width: rhythm(2),
             height: rhythm(2),
           }}
         />
+        <span>
         <strong>Prabhas Pokharel</strong> designs, builds, and leads meaningful projects.
-        He has worked in five continents, and is currently living in San Jose, CA.
-      </p>
+        He has worked in five continents, and currently lives in the SF Bay Area.
+        </span>
+      </div>
     )
   }
 }
-
-export default Bio

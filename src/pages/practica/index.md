@@ -1,9 +1,9 @@
 ---
-layout: post
+path: "/practica"
 title:  "Practica"
-date:   2017-01-01
+date: 2017-01-01
 img: home/ProjectFluency.jpg
-excerpt: "Embedding second langauge learning in the workplace for US immigrants"
+excerpt: "Embedding second language learning in the workplace for US immigrants"
 categories: [one, two]
 ---
 

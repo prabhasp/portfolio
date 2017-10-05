@@ -1,7 +1,7 @@
 ---
 path: "/nigeria"
-title:  "Data Driven Local Planning"
-date:   2017-01-01
+title: "Data Driven Local Planning"
+date: 2017-01-01
 img: home/Nigeria.png
 excerpt: "Empowering data-driven planning for social infrastructure in Nigeria"
 categories: [one, two]
