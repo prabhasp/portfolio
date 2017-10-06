@@ -10,15 +10,7 @@ export default class Cards extends React.Component {
     var posts = this.props.posts;
     if (!posts) { return <div/>; }
     return (
-      <div className="cards-base-layer"
-             style={{
-              display: 'flex',
-              flexWrap: 'wrap',
-              justifyContent: 'space-around',
-              alignItems: 'center',
-              padding: rhythm(1),
-              background: '#eee'
-             }}>
+      <div className="card-container" style={styles.cardContainer}>
           {posts.map((post, index) => {
             if (post.node.path !== '/404/') {
               const title = get(post, 'node.frontmatter.title') || post.node.path;
@@ -33,6 +25,17 @@ export default class Cards extends React.Component {
           })}
         </div>
     )
+  }
+}
+
+const styles = {
+  cardContainer: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    padding: '5vw',
+    background: '#eee'
   }
 }
     
