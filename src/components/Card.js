@@ -8,7 +8,9 @@ export default class Card extends React.Component {
     console.log(this.props);
     return(
       <div className="card"
-           style={{ width: rhythm(12), 
+           style={{ width: '30vw', minWidth: 250,
+                    backgroundColor: 'white', boxShadow: '1px 1px 2px #888',
+                    marginRight: '.5vw', marginLeft: '.5vw',
                     marginBottom: rhythm(1), padding: rhythm(0.2) }}>
         <Link to={this.props.link}
                 style={{ boxShadow: 'none', padding: 0,

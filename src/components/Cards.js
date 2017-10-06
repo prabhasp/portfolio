@@ -14,9 +14,10 @@ export default class Cards extends React.Component {
              style={{
               display: 'flex',
               flexWrap: 'wrap',
-              justifyContent: 'center',
+              justifyContent: 'space-around',
               alignItems: 'center',
-              marginTop: rhythm(1)
+              padding: rhythm(1),
+              background: '#eee'
              }}>
           {posts.map((post, index) => {
             if (post.node.path !== '/404/') {

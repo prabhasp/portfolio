@@ -5,7 +5,6 @@ import { Container } from 'react-responsive-grid'
 import { rhythm, scale } from '../utils/typography'
 
 import Header from '../components/Header'
-import Cards from '../components/Cards'
 
 class Template extends React.Component {
   render() {
@@ -16,7 +15,7 @@ class Template extends React.Component {
       rootPath = __PATH_PREFIX__ + `/`
     }
     return (
-      <div>
+      <div style={{ display: 'flex', flexDirection: 'column'}}>
         <Header isHomePage={location.pathname === rootPath} />
         {children()}
       </div>
