@@ -13,9 +13,8 @@ export default class Header extends React.Component {
                <h3 style={{...scale(.8), marginTop:0}}> {link} </h3>);
     return (
       <div className="header"
-           style={{display: 'flex', justifyContent: 'center', 
-                   paddingTop: rhythm(.5), paddingBottom: rhythm(1), height: rhythm(2.5), 
-                   boxShadow: '1px 1px 2px #888'}}>
+           style={{display: 'flex', justifyContent: 'center', boxShadow: '1px 1px 2px #888',
+                   padding: rhythm(.5), height: rhythm(2.5), }}>
           {hEl}
       </div>
     )

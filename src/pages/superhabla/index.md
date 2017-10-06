@@ -14,11 +14,13 @@ excerpt: "Providing access to speech therapy after cleft palate surgeries in Ecu
 In 2016, we took on this challenge as a part of Stanford d.school’s Design for Extreme Affordability class.  After working closely with Fundacion Rostros Felices, an organization providing surgery and some speech care to patients in Ecuador, we identified three challenges for speech therapy in this context:
 
 ### Access
- *“[the cleft-trained speech therapist] lives four hours away. I took my child to her three times, but when I had my second child, it was too difficult to keep going.”*
+ * “[the cleft-trained speech therapist] lives four hours away. I took my child to her three times, but when I had my second child, it was too difficult to keep going.”*
+
 ### Effectiveness
-*“I have tried three speech therapists locally who have worked with my child. With this latest one, he co-operates, but he hasn’t made much progress yet.”*
+ * “I have tried three speech therapists locally who have worked with my child. With this latest one, he co-operates, but he hasn’t made much progress yet.”*
+
 ### Engagement
-*“Pablo, pleeeeeeease…. If you do this therapy, we will go get ice cream. Do you want ice cream? Please… there is just a little bit left.”*
+ * “Pablo, pleeeeeeease…. If you do this therapy, we will go get ice cream. Do you want ice cream? Please… there is just a little bit left.”*
 
 Many parents simply didn't have access to effective cleft-trained speech therapists. Even if they did, however, the repetitiveness of speech therapy is extremely boring for kids. More than half of the speech therapists' job was often to simply get the kids to "collaborar" (co-operate).
 

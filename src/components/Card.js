@@ -5,11 +5,11 @@ import { rhythm } from '../utils/typography'
 
 export default class Card extends React.Component {
   render() {
+    console.log(this.props);
     return(
       <div className="card"
-           style={{ width: rhythm(12),
-                    margin: rhythm(.25), padding: rhythm(0.2),
-                    backgroundColor: '#fff', boxShadow: '1px 1px 2px #888' }}>
+           style={{ width: rhythm(12), 
+                    marginBottom: rhythm(1), padding: rhythm(0.2) }}>
         <Link to={this.props.link}
                 style={{ boxShadow: 'none', padding: 0,
                          color: 'none', textDecoration: 'none' }} >

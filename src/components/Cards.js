@@ -16,7 +16,7 @@ export default class Cards extends React.Component {
               flexWrap: 'wrap',
               justifyContent: 'center',
               alignItems: 'center',
-              backgroundColor: '#eee'
+              marginTop: rhythm(1)
              }}>
           {posts.map((post, index) => {
             if (post.node.path !== '/404/') {

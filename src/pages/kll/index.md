@@ -2,7 +2,7 @@
 path: "/kll"
 title:  "Earthquake Response @ KLL"
 date:   2017-01-01
-img: home/KLL.jpg
+img: "home/KLL.jpg"
 excerpt: "Responding to a major natual disaster using civic technology tools in Nepal"
 categories: [one, two]
 ---
