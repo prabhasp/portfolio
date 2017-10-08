@@ -13,9 +13,9 @@ export default class Header extends React.Component {
             </h1>
           </Link>
         </div>
-          <a css={styles.navLink} href={'/all-projects/'}> PROJECTS </a>
-          <Link style={styles.navLink} to={'/writing/'}> WRITING </Link>
-          <Link style={styles.navLink} to={'/story/'}> STORY </Link>
+          <Link css={styles.navLink} to={'/all-projects/'}> PROJECTS </Link>
+          <Link css={styles.navLink} to={'/writing/'}> WRITING </Link>
+          <Link css={styles.navLink} to={'/story/'}> STORY </Link>
       </div>
     )
   }
