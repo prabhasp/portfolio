@@ -4,7 +4,8 @@ title:  "Earthquake Response @ KLL"
 date:   2017-01-01
 img: "home/KLL.jpg"
 excerpt: "Responding to a major natual disaster using civic technology tools in Nepal"
-categories: [one, two]
+role: ["Product Lead", "Operations Lead"]
+category: leadership
 ---
 
 On April 25th, 2015, a massive 7.8M earthquake shocked Nepal. At the time, I was living in Kathmandu, and had been a part-time Design Fellow at Kathmandu Living Labs (KLL). I was lucky to survive largely unscathed, among heavy damages and casualties particularly in the countryside.

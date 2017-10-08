@@ -4,7 +4,8 @@ title: "Data Driven Local Planning"
 date: 2017-01-01
 img: home/Nigeria.png
 excerpt: "Empowering data-driven planning for social infrastructure in Nigeria"
-categories: [one, two]
+role: ["Systems Designer", "Technical Project Manager"]
+category: leadership
 ---
 
 In 2005, the Nigerian federal government's OSSAP-MDGs (Office of the Senior Special Assistant to the President on the Millennium Development Goals) created the Conditional Grants Scheme (CGS) as a way to channel $1.2 billion USD into local infrastructure development projects. Through this scheme, funds are released to Local Government Areas (LGAs) to be used for specific, approved purposes geared towards reducing poverty and improving education and public health.

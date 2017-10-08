@@ -12,9 +12,9 @@ export default class Bio extends React.Component {
     var styles = this.props.asCard ? cardBioStyles : verticalBioStyles;
     var text = (this.props.asCard ?
           <div>
-            Hi, I’m Prabhas, and I love creating meaningful products for people.  <br/>
-            As needed, I design products, develop software, and lead teams. <br/>
-
+            Hi, I’m Prabhas, and I love creating meaningful products for people.
+            I design products, develop software, and lead teams.
+            <br/>
             I get inspiration from the beauty of nature, the playfulness of children, the tenacity of immigrants, and the goodness of humanity. 
           </div> :
           <div>
@@ -81,7 +81,6 @@ const cardBioStyles = {
     boxShadow: '1px 1px 2px #888',
     display: 'flex',
     alignItems: 'center',
-    padding: rhythm(1),
     margin: rhythm(1)
   },
   txt: {

@@ -4,9 +4,11 @@ title:  "Naya Krishi"
 date:   2017-01-01
 img: home/NayaKrishi.png
 excerpt: "Accelerating technology adoption in traditional Nepali agriculture"
-categories: [one, two]
+role: ["Ethnographer", "Designer"]
+category: design
 ---
 
+### The Context 
 In the summer of 2016, I got grant funding from Stanford and UC Davis to go Nepal with an open-ended mission: _how might we improve the agricultural productivity of smallholder farmers in Nepal?_ Low agricultural productivity of small farms is a big problem in Nepal, effecting not only the economics of farming but also development goals such as nutrition [1]. Moreover, research shows low levels of investment in farm productivity, even when migration provides both a labor incentive (fewer farmhands) and economic ability (money sent back from abroad). [2] I worked with a local civic tech organization, trained a few of their members in design thinking, and worked closely with farmers to investigate this problem and see if anything could be done.
 
 ![Traditional Farmwork](./TraditionalFarmwork.jpg)

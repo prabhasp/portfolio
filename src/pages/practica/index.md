@@ -4,7 +4,8 @@ title:  "Practica"
 date: 2017-01-01
 img: home/ProjectFluency.jpg
 excerpt: "Embedding second language learning in the workplace for US immigrants"
-categories: [one, two]
+role: ["Co-founder", "Designer"]
+category: design
 ---
 
 We [^1] started Project Fluency by simply talking to legal immigrants in Northern California working in low-wage jobs. We quickly realized the huge scope of under-employment in the migrant community: people who were journalists, teachers, and managers in their home countries working as gas station cashiers, babysitters, and in beauty salons here. Among the myriad contributors to under-employment, we decided to tackle an ab that many immigrants themselves limited by: their "English". We found "English" was actually a stand-in for a host of problems about how to navigate America: a _cultural fluency_ that is hard to acquire for late entrants. Underlying the things that help you build _cultural fluency_, like relationships, and immersion, we found communication to be a problem that needed another look.
