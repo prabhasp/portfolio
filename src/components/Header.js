@@ -55,11 +55,11 @@ const styles = {
   },
   navLink: {
     paddingRight: rhythm(1),
-    '@media(max-width: 440px)': {
+    '@media(max-width: 480px)': {
       paddingRight: rhythm(.6),
       fontSize: '0.7em'
     },
-    '@media(max-width: 340px)': {
+    '@media(max-width: 320px)': {
       paddingRight: rhythm(.4),
       fontSize: '0.6em',
     },

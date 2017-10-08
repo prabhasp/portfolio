@@ -35,7 +35,15 @@ const styles = {
     justifyContent: 'space-around',
     alignItems: 'center',
     padding: '5vw',
-    background: '#eee'
+    background: '#eee',
+    '@media(max-width: 479px)': { /* Mobile and Phablet */
+      paddingTop: 20,
+      padding: 5,
+    },
+    '@media(min-width: 480px) and (max-width: 768px)': { /* tablet */
+      paddingTop: 40,
+      padding: 10,
+    }
   }
 }
     
