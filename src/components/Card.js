@@ -7,14 +7,14 @@ export default class Card extends React.Component {
   render() {
     console.log(this.props);
     return(
-      <div className="card" style={styles.card}>
-        <Link to={this.props.link} style={styles.wholeCardLink} >
-          <img src={"/" + this.props.thumbnail} style={styles.img} alt="" />
-          <div className="card-text" style={styles.textBelowImage}>
-            <div className="title" style={styles.title}> 
+      <div className="card" css={styles.card}>
+        <Link to={this.props.link} css={styles.wholeCardLink} >
+          <img src={"/" + this.props.thumbnail} css={styles.img} alt="" />
+          <div className="card-text" css={styles.textBelowImage}>
+            <div className="title" css={styles.title}> 
               {this.props.title} 
             </div>
-            <div className="subtitle" style={styles.subtitle}> 
+            <div className="subtitle" css={styles.subtitle}> 
               {this.props.excerpt} 
             </div>
           </div>

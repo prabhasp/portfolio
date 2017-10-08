@@ -14,7 +14,7 @@ export default class BlogIndex extends React.Component {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
     return (
-      <div style={{backgroundColor: '#eee'}}>
+      <div css={{backgroundColor: '#eee'}}>
         <Bio asCard={true} />
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
         <Cards posts={posts} />

@@ -10,7 +10,7 @@ export default class Cards extends React.Component {
     var posts = this.props.posts;
     if (!posts) { return <div/>; }
     return (
-      <div className="card-container" style={styles.cardContainer}>
+      <div className="card-container" css={styles.cardContainer}>
           {posts.map((post, index) => {
             if (post.node.path !== '/404/') {
               const title = get(post, 'node.frontmatter.title') || post.node.path;

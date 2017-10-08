@@ -23,13 +23,13 @@ export default class Bio extends React.Component {
             across five continents, and currently lives in the SF Bay Area.
           </div>);
     return (
-      <div style = {styles.outerContainer}>
-        <div style={styles.innerContainer} >
+      <div css={styles.outerContainer}>
+        <div css={styles.innerContainer} >
           <img
             src={profilePic}
             alt={`Prabhas Pokharel`}
-            style={styles.img} />
-          <div style={styles.txt}> {text} </div>
+            css={styles.img} />
+          <div css={styles.txt}> {text} </div>
         </div>
       </div>
     )
@@ -68,12 +68,25 @@ const cardBioStyles = {
     alignItems: 'center',
     flexGrow: 1,
     margin: rhythm(1),
-    flexWrap: 'wrap'
+    '@media(max-width: 439px)': { /* Mobile and Phablet */
+      margin: 0
+    },
+    '@media(min-width: 440px) and (max-width: 800px)': { /* tablet */
+      margin: rhythm(.5)
+    },
   },
   img: {
     width: rhythm(3),
     height: rhythm(3),
-    margin: rhythm(1)
+    margin: rhythm(1),
+    '@media(max-width: 439px)': { /* Mobile and Phablet */
+      margin: 0,
+      marginTop: rhythm(.5)
+    },
+    '@media(min-width: 440px) and (max-width: 800px)': { /* tablet */
+      margin: rhythm(1),
+      marginBottom: 0
+    }
   },
   innerContainer: {
     flexBasis: '60vw',
@@ -81,9 +94,24 @@ const cardBioStyles = {
     boxShadow: '1px 1px 2px #888',
     display: 'flex',
     alignItems: 'center',
-    margin: rhythm(1)
+    margin: rhythm(1),
+    '@media(max-width: 439px)': { /* Mobile and Phablet */
+      boxShadow: 'none',
+      flexDirection: 'column',
+      textAlign: 'center',
+      flexBasis: '100%',
+      margin: 0,
+    },
+    '@media(min-width: 440px) and (max-width: 800px)': { /* tablet */
+      flexDirection: 'column',
+      textAlign: 'center',
+    }
   },
   txt: {
+    '@media(max-width: 439px)': {
+      padding: rhythm(.5)  ,
+      paddingBottom: rhythm(1)
+    },
     padding: rhythm(1), 
     minWidth: '250px'
   }

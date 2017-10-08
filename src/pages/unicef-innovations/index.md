@@ -1,9 +1,9 @@
 ---
-title:  "UNICEF Innovations Lab Kosovo"
+title:  "UNICEF Innovations Lab"
 path: "/unicef-innovations-lab/"
 date:   2017-01-01
 img: home/UNICEF.png
-excerpt: "Creating space for young people to create the change in which they can believe"
+excerpt: "Creating space for young people to create change"
 role: ["Co-creator"]
 category: leadership
 

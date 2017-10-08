@@ -12,11 +12,11 @@ export default class BlogPost extends React.Component {
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
 
     return (
-      <div className="blog-post-body" style={{ margin: '3rem auto', maxWidth: 600 }}>
+      <div className="blog-post-body" css={{ margin: '3rem auto', maxWidth: 600 }}>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
         <h2>{post.frontmatter.title}</h2>
         <p
-          style={{
+          css={{
             ...scale(-1 / 5),
             display: 'block',
             marginBottom: rhythm(2),

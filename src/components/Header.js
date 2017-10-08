@@ -5,17 +5,17 @@ import { rhythm, scale } from '../utils/typography'
 export default class Header extends React.Component {
   render() {
     return (
-      <div className="header" style={styles.headerDiv}>
-        <div style={styles.title}>
-          <Link to={'/'} style={styles.headerLink}> 
-            <h1 style={{...scale(.8), marginTop:0}}>
-              Prabhas Pokharel
+      <div className="header" css={styles.headerDiv}>
+        <div css={styles.title}>
+          <Link to={'/'} css={styles.headerLink}> 
+            <h1 css={{...scale(.8), marginTop:0}}>
+              Prabhas <span css={styles.invisibleIfSmall}>Pokharel</span>
             </h1>
           </Link>
         </div>
-          <Link css={styles.navLink} to={'/all-projects/'}> PROJECTS </Link>
-          <Link css={styles.navLink} to={'/writing/'}> WRITING </Link>
-          <Link css={styles.navLink} to={'/story/'}> STORY </Link>
+        <Link css={styles.navLink} to={'/all-projects/'}> PROJECTS </Link>
+        <Link css={styles.navLink} to={'/writing/'}> WRITING </Link>
+        <Link css={styles.navLink} to={'/story/'}> STORY </Link>
       </div>
     )
   }
@@ -34,6 +34,14 @@ const styles = {
   title: {
     marginLeft: rhythm(3),
     flexGrow: 1,
+    '@media(max-width: 439px)': {
+      marginLeft: rhythm(.5)
+    },
+  },
+  invisibleIfSmall: {
+    '@media(max-width: 600px)': {
+      visibility: 'hidden'
+    },
   },
   headerLink: { 
     textDecoration: 'none', 
@@ -46,7 +54,15 @@ const styles = {
     paddingBottom: rhythm(1), 
   },
   navLink: {
-    padding: rhythm(.5),
+    paddingRight: rhythm(1),
+    '@media(max-width: 440px)': {
+      paddingRight: rhythm(.6),
+      fontSize: '0.7em'
+    },
+    '@media(max-width: 340px)': {
+      paddingRight: rhythm(.4),
+      fontSize: '0.6em',
+    },
     color: `inherit`,
     fontSize: '0.8em',
     letterSpacing: '1.2',
