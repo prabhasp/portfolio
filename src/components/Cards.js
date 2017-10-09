@@ -13,13 +13,13 @@ export default class Cards extends React.Component {
       <div className="card-container" css={styles.cardContainer}>
           {posts.map((post, index) => {
             if (post.node.path !== '/404/') {
-              const title = get(post, 'node.frontmatter.title') || post.node.path;
+              const metadata = get(post, 'node.frontmatter') || post.node.path;
               return (
                 <Card key={index}
-                      title={title}
-                      thumbnail={post.node.frontmatter.img}
-                      excerpt={post.node.frontmatter.excerpt}
-                      link={post.node.frontmatter.path} />
+                      title={metadata.title || post.node.path}
+                      thumbnail={metadata.img}
+                      excerpt={metadata.excerpt}
+                      link={metadata.path} />
               )
             }
           })}
@@ -33,9 +33,9 @@ const styles = {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-around',
-    alignItems: 'center',
-    padding: '5vw',
-    background: '#eee',
+    alignItems: 'flex-start',
+    /* padding: '5vw', */
+    /* background: '#eee', */
     '@media(max-width: 479px)': { /* Mobile and Phablet */
       paddingTop: 20,
       padding: 5,

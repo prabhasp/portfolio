@@ -5,8 +5,7 @@ import Helmet from 'react-helmet'
 
 import { rhythm } from '../utils/typography'
 import Bio from '../components/Bio'
-import Card from '../components/Card'
-import Cards from '../components/Cards'
+import Projects from '../components/Projects'
 
 
 export default class BlogIndex extends React.Component {
@@ -17,7 +16,9 @@ export default class BlogIndex extends React.Component {
       <div css={{backgroundColor: '#eee'}}>
         <Bio asCard={true} />
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
-        <Cards posts={posts} />
+        <Projects posts={posts} category={"design"}/>
+        <Projects posts={posts} category={"software"}/>
+        <Projects posts={posts} category={"leadership"}/>
       </div>
     )
   }
@@ -44,6 +45,7 @@ export const pageQuery = graphql`
             img
             title
             excerpt
+            category
           }
         }
       }

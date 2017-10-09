@@ -68,48 +68,52 @@ const cardBioStyles = {
     alignItems: 'center',
     flexGrow: 1,
     margin: rhythm(1),
-    '@media(max-width: 439px)': { /* Mobile and Phablet */
-      margin: 0
+    '@media(max-width: 1024px)': { /* desktop and below */
+      margin: rhythm(.5),
     },
-    '@media(min-width: 440px) and (max-width: 800px)': { /* tablet */
-      margin: rhythm(.5)
+    '@media(max-width: 768px)': { /* tablet and below */
+      margin: rhythm(.25),
+    },
+    '@media(max-width: 480px)': { /* Mobile and Phablet */
+      margin: rhythm(.25),
     },
   },
   img: {
     width: rhythm(3),
     height: rhythm(3),
     margin: rhythm(1),
-    '@media(max-width: 439px)': { /* Mobile and Phablet */
-      margin: 0,
-      marginTop: rhythm(.5)
-    },
-    '@media(min-width: 440px) and (max-width: 800px)': { /* tablet */
+    '@media(max-width: 768px)': { /* tablet */
       margin: rhythm(1),
-      marginBottom: 0
-    }
+      marginRight: rhythm(.5)
+    },
+    '@media(max-width: 480px)': { /* Mobile and Phablet */
+      margin: rhythm(.5),
+      marginBottom: 0,
+    },
   },
   innerContainer: {
-    flexBasis: '60vw',
+    flexBasis: '80vw',
     background: '#fff',
     boxShadow: '1px 1px 2px #888',
     display: 'flex',
     alignItems: 'center',
     margin: rhythm(1),
-    '@media(max-width: 439px)': { /* Mobile and Phablet */
-      boxShadow: 'none',
+    '@media(max-width: 768px)': { /* tablet */
+      flexBasis: '80vw',
+      fontSize: '0.9em',
+      lineHeight: 1.6,
+      margin: rhythm(.5),
+    },
+    '@media(max-width: 480px)': { /* Mobile and Phablet */
       flexDirection: 'column',
       textAlign: 'center',
       flexBasis: '100%',
-      margin: 0,
+      margin: rhythm(.25),
     },
-    '@media(min-width: 440px) and (max-width: 800px)': { /* tablet */
-      flexDirection: 'column',
-      textAlign: 'center',
-    }
   },
   txt: {
     '@media(max-width: 439px)': {
-      padding: rhythm(.5)  ,
+      padding: rhythm(.5),
       paddingBottom: rhythm(1)
     },
     padding: rhythm(1), 

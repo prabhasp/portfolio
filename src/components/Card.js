@@ -5,7 +5,6 @@ import { rhythm } from '../utils/typography'
 
 export default class Card extends React.Component {
   render() {
-    console.log(this.props);
     return(
       <div className="card" css={styles.card}>
         <Link to={this.props.link} css={styles.wholeCardLink} >
@@ -29,8 +28,8 @@ export default class Card extends React.Component {
 const styles = {
   card: {
     flexBasis: '25vw', 
-    backgroundColor: 'white', 
-    boxShadow: '1px 1px 2px #888',
+    /*backgroundColor: 'white', 
+    boxShadow: '1px 1px 2px #888',*/
     marginBottom: rhythm(1),
     padding: '5px',
     '@media(max-width: 480px)': { /* Mobile and Phablet */
@@ -57,7 +56,7 @@ const styles = {
   },
   img: {
     margin: 0,
-    minWidth: 220,
+    minWidth: 200,
     '@media(max-width: 480px)': { /* Mobile and Phablet */
       width: 220,
       height: 220 / 1.5,
@@ -72,9 +71,12 @@ const styles = {
   cardText: {
     color: '#2d2d2d',
     paddingBottom: '5px',
+    '@media(min-width: 481px)': { /* Larger than Phablet */
+      paddingLeft: 0,
+      paddingTop: rhythm(.25)
+    },
     '@media(max-width: 480px)': { /* Mobile and Phablet */
       paddingLeft: rhythm(.25),
-      
       fontSize: '.8em'
     },
     '@media(max-width: 320px)': { /* Mobile only */
