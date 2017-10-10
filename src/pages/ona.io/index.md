@@ -15,21 +15,23 @@ Ona had just launched as a new company, and were re-building [Formhub](/formhub)
 The brief for me was to build a sophisticated dataview for Ona.io, drawing lessons from Formhub's map view, and creating new ways to visualize and browse data through tables and charts. 
 
 
-### My Role
-
-I was a front-end engineer and data scientist at Ona. I did initial exploratory data analysis using R and ggplot, and converted successful visualization techniques to automated visualization tools using javascript (well, clojurescript :)
-
 ### The Product
 
-I wrote the initial implementation of Ona's front-end data view, starting from 0 lines of code and building the codebase to 200K lines of code. After spending a week learning `clojure`, I dove in, and built the map view (on top of `leaflet.js`), the chart view (on top of `d3.js`), and the table view (on top of `slickgrid.js`).
 
-I created automatic map-based visualizations of structured data collected in Ona.io. Until then, most map-based web software only offered heatmaps and "pop-ups" as a way to explore data, requiring one click at a time data exploration. I created new ways to automatically visualize structured data, drawing from scatterplot visualization techniques and my previous work with the amazing `ggplot2`. As a result, if you were collecting data about public taps in a Ghanain village, you could automatically visualize which taps were working at the time of data collection:
+![](./Ona_Map_Basic.png)
+
+I wrote the initial implementation of Ona's front-end data view, starting from 0 lines of code and building the codebase to 200K lines of code. After spending a week learning `clojure`, I dove in, and built the map view (on top of [leaflet.js](http://leafletjs.com/)), the chart view (on top of [d3.js](https://d3js.org/)), and the table view (on top of [slickgrid.js](https://github.com/6pac/SlickGrid/wiki)).
+
+I created automatic map-based visualizations of structured data collected in Ona.io. Until then, most map-based web software only offered heatmaps and "pop-ups" as a way to explore data, requiring one click at a time data exploration. I created new ways to automatically visualize structured data, drawing from scatterplot visualization techniques and my previous work with the amazing `ggplot2`. As a result, if you were collecting data about sculptures stolen from Kathmandu, Nepal, you could visualize which decade a sculpture was stolen, to explore spatial patterns.
+
+![](./Ona_Map_FilteredColors.png)
 
 
 ### Tech Stack
 
+  * `R`, `ggplot2`, and `d3.js` for exploratory visualization
   * `om`, `clojurescript`, and `core.async` channels
-  * The back-end was built on `ring`, ..., and ... I only made occassional changes here.
+  * The back-end was built on `ring`, and `compojure`. I only made occassional changes here.
   
 ### Learnings
   
@@ -39,4 +41,4 @@ I created automatic map-based visualizations of structured data collected in Ona
   
 ### The Impact
 
-The front-end I wrote for Ona is still very much in use today, two afters I stopped working on it. Despite two years of iteration, I still have the largest number of lines contributed to the front-end code :) The front-end data view is one of Ona's most popular selling points.
+The front-end I wrote for Ona is still very much in use today, two years after I stopped working on it. Despite two years of iteration, I still have the largest number of lines contributed to the front-end code :) The front-end data view is one of Ona's most popular selling points.

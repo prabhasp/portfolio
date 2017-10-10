@@ -27,6 +27,12 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              offsetY: 100 /* offsetY allows anchor links to be pushed down just that much */
+            },
+          },
           "gatsby-plugin-glamor",
           "gatsby-remark-prismjs",
           "gatsby-remark-copy-linked-files",

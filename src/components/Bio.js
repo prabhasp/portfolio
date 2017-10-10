@@ -51,7 +51,7 @@ const verticalBioStyles = {
     marginTop: rhythm(.5), 
     marginBottom: rhythm(.5)
   },
-  text: {
+  txt: {
     padding: rhythm(1), 
     minWidth: '250px'
   }

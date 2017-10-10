@@ -35,7 +35,7 @@ Practice makes perfect, but practice is harder than it looks. This led to our un
 
 We decided to work specifically with immigrants working in the service industry, who need to interact with English-speaking customers for their jobs. We also hypothesized that by giving people more confidence interacting with people, we would create value for the employers, who want employers with better communications skills.
 
-### Low-fidelity Prototyping
+### Prototyping
 
 Following the principles of ![the Lean Startup](http://theleanstartup.com/) methodology, we sought to design a low-fidelity prototype that would meet our fundamental objective: helping learners increase the frequency of everyday conversations. 
 
@@ -43,7 +43,7 @@ Following the principles of ![the Lean Startup](http://theleanstartup.com/) meth
 
 We started an informal home-based learning environment to try out different experience prototypes, and created 18 different low-fidelity prototypes using paper and hand-written SMS messages, and tested these with 17 different users. We refined prototypes that were working, and discarded ones without resonance from our users.
 
-### The Product: A semi-automated language coach
+### The Product
 
 Based on our prototyping, we found that a semi-automated language coach was an amazing way to help people increase their practice frequency. By using automation, we could send people daily messages of real-life practice activities. A coach could then schedule an SMS-based check in with each learner, and provide them live feedback on their practice.
 
@@ -65,6 +65,6 @@ We also tracked data, including the number of "conversation turns" (one turn is 
 
 ### Future Work
 
-We are working to find business model that will allow the Practica model to scale, particularly via employers who want their employees to have better customer service skills. If you know someone who would like to work with us, drop us a line at projectfluency _AT_ gmail _DOT_ com.
+We are working to find business model that will allow Practica to scale, particularly via employers who want their employees to have better customer service skills. If you know someone who would like to work with us, drop us a line at projectfluency _AT_ gmail _DOT_ com.
 
 

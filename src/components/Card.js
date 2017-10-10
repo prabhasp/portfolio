@@ -31,7 +31,6 @@ const styles = {
     /*backgroundColor: 'white', 
     boxShadow: '1px 1px 2px #888',*/
     marginBottom: rhythm(1),
-    padding: '5px',
     '@media(max-width: 480px)': { /* Mobile and Phablet */
       flexBasis: '100%',
       marginBottom: rhythm(.5),
@@ -43,10 +42,16 @@ const styles = {
     '@media(max-width: 480px)': { /* Mobile and Phablet */
       flexDirection: 'row',
     },
+    padding: '5px',
     '@media(max-width: 320px)': { /* Mobile */
       flexDirection: 'column',
       alignItems: 'flex-start',
     },
+    borderBottom: '1px solid white',
+    ':hover': {
+      borderBottom: '1px dashed #888',
+      backgroundColor: '#eeeeee'
+    }
   },
   wholeCardLink: {
     boxShadow: 'none', 
