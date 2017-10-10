@@ -13,7 +13,7 @@ export default class BlogIndex extends React.Component {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
     return (
-      <div css={{backgroundColor: '#eee'}}>
+      <div css={styles.homepageContainer}>
         <Bio asCard={true} />
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
         <Projects posts={posts} category={"design"}/>
@@ -26,6 +26,15 @@ export default class BlogIndex extends React.Component {
 
 BlogIndex.propTypes = {
   route: React.PropTypes.object,
+}
+
+const styles = {
+  homepageContainer: {
+    /*display: 'flex', 
+    flexDirection: 'column',
+    justifyContent: 'space-between',*/
+    backgroundColor: '#eee'
+  }
 }
 
 export const pageQuery = graphql`
