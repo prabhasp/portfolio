@@ -1,5 +1,5 @@
 ---
-title:  "Practica: Audio Cards"
+title:  "Practica—Audio Cards"
 date:   2017-01-01
 img: home/Practica-cards.png
 path: "/pratica-audio-cards/"

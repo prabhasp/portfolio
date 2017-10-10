@@ -4,9 +4,9 @@ date:   2017-01-01
 img: home/superhabla.jpg
 path: "/superhabla/"
 excerpt: "Providing access to speech therapy after cleft palate surgeries in Ecuador"
-role: ["Lead Designer"]
+role: ["Co-founder", "Designer"]
 category: design
-
+collaborators: Andrew Molina, Amanda Ussak, and Hunter Dudley
 ---
 
 ### The Brief 

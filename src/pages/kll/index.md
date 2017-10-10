@@ -3,7 +3,7 @@ path: "/kll"
 title:  "Earthquake Response @ KLL"
 date:   2017-01-01
 img: "home/KLL.jpg"
-excerpt: "Leading technology fo disaster recovery after Nepal Earthquake"
+excerpt: "Leading technology for disaster recovery after Nepal Earthquake"
 role: ["Product Lead", "Operations Lead"]
 category: leadership
 ---
