@@ -8,13 +8,12 @@ export default class Bio extends React.Component {
     var styles = this.props.asCard ? cardBioStyles : verticalBioStyles;
     var text = (this.props.asCard ?
           <div>
-            Hi, I’m Prabhas, and I love creating meaningful products for people.
-            I design products, develop software, and lead teams.
-            <br/>
-            I get inspiration from the beauty of nature, the playfulness of children, the tenacity of immigrants, and the goodness of humanity. 
+            Hi, I’m Prabhas, and I love catalyzing innovation. I lead teams that design products, develop software, change existing systems, and occassionally break some rules.
+            <br/> <br/>
+            I am originally from Nepal, have worked across five continents, and just spent two amazing years at the <a href="http://dschool.stanford.edu">Stanford d.school</a>. I get inspiration from the beauty of nature, the playfulness of children, the tenacity of immigrants, and the goodness of humanity. 
           </div> :
           <div>
-            <strong>Prabhas Pokharel</strong> loves creating meaningful products for people. <br/>
+            <strong>Prabhas Pokharel</strong> loves creating meaningful products for people. <br/> 
             He has designed products, developed software, and created collaborative efforts
             across five continents, and currently lives in the SF Bay Area.
           </div>);
@@ -41,8 +40,8 @@ const verticalBioStyles = {
   },
   img: {
     margin: rhythm(1 / 2),
-    width: rhythm(2),
-    height: rhythm(2),
+    width: rhythm(3),
+    height: rhythm(3),
   },
   innerContainer: {
     display: 'flex', 
@@ -75,8 +74,8 @@ const cardBioStyles = {
     },
   },
   img: {
-    width: rhythm(3),
-    height: rhythm(3),
+    width: rhythm(4),
+    height: rhythm(4),
     margin: rhythm(1),
     '@media(max-width: 768px)': { /* tablet */
       margin: rhythm(1),

@@ -17,7 +17,7 @@ export default class Header extends React.Component {
         </div>
         <Link css={styles.navLink} to={'/'}> HOME </Link>
         <Link css={styles.navLink} to={'/all-projects/'}> PROJECTS </Link>
-        <a css={styles.navLink} href={'http://prabhasp.com/wp/'}> BLOG<sup>⇗</sup></a>
+        <a css={styles.navLink} href={'http://prabhasp.com/blog/'}> BLOG<sup>⇗</sup></a>
       </div>
       </div>
     )

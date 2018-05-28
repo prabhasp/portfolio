@@ -1,7 +1,7 @@
 ---
 title:  "Super Habla"
 date:   2017-01-01
-img: home/superhabla.jpg
+img: home/SuperHabla.jpg
 path: "/superhabla/"
 excerpt: "Providing access to speech therapy after cleft palate surgeries in Ecuador"
 role: ["Co-founder", "Designer"]

@@ -6,6 +6,12 @@ import T from 'prop-types';
 import { rhythm } from '../utils/typography'
 import Cards from './Cards'
 
+const descriptions = {
+  "design": "",
+  "software": "",
+  "leadership": ""
+}
+
 export default class Projects extends React.Component {
   static propTypes = {
     posts: T.array.isRequired,
